@@ -15,11 +15,9 @@
 
 
   <div class="splash">
-  
     <div class="header">
         <span class="txt anim-text-flow">Tic-Tac-Toe</span>
     </div>
-      
     <div class="high-scores">
       <h3>Top Ten List</h3>
       <p>KEV ..... 10</p>
@@ -33,7 +31,6 @@
       <p>ASS ..... 01</p>
       <p>WHO ..... 01</p>
     </div>
-    
     <div class="startGame">
       <p>Press to start!</p>
       <button class="push--skeuo" id="startGame">Play</button>
@@ -60,26 +57,34 @@
       </div>
     </div>
   </div><!-- end board div -->
-
-  <div class="endGame">
-      <div class="text"></div><br />
-      <div class="buttons">
-        <div class="button">
-          <button class="push--skeuo" id="playAgain"></button><br>
-          <div>Play Again?</div>
-        </div>
-        <div class="button">
-          <button class="push--skeuo" id="quitGame"></button><br>
-          <div>Quit</div>
+  
+  <div class="endGameContainer">
+    <div class="endGame">
+      <div class="player-choice">
+        <div class="text blink_me"></div><br />
+        <div class="buttons">
+          <div class="button">
+            <button class="push--skeuo" id="playAgain"></button><br>
+            <div>Play Again?</div>
+          </div>
+          <div class="button">
+            <button class="push--skeuo" id="quitGame"></button><br>
+            <div>Quit</div>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
+  
+  <div class="messages">
+    <div class="message">Test</div>
   </div>
 
   <div class="muteUnmute">
-        <img src="images/mute.png" class="display" id="mute"/>
-        <img src="images/unmute.png" class="hide" id="unmute"/>
+    <img src="images/mute.png" class="display" id="mute"/>
+    <img src="images/unmute.png" class="hide" id="unmute"/>
   </div>
-
+  
 
 
   <script src="js/howler.js"></script>

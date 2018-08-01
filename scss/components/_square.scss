@@ -1,0 +1,34 @@
+.square {
+  width: 125px;
+  height: 125px;
+  line-height: 125px;
+  border: solid blue;
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  &:hover {
+    border-color: lightblue;
+  }
+  //box-shadow: 0 0 10px 7px rgba(0, 0, 255, 0.8);
+  border:3px solid rgba(0,0, 255, 0.8);
+}
+
+//remove left side border
+.row .column:first-child .square {
+  border-left: none;
+  //box-shadow: 3px 5px 5px 2px rgba(0, 0, 255, 0.8);
+}
+
+//remove right side border
+.row .column:last-child .square {
+  border-right: none;
+}
+//remove top border
+.column .square:first-child {
+  border-top: none;
+}
+
+//remove bottom border
+.column .square:last-child {
+  border-bottom: none;
+}

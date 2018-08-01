@@ -1,0 +1,91 @@
+<!-- Mastering jQuery Project Assignment 3 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mastering jQuery Project Assignment 3</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="splash">
+  
+    <div class="header">
+        <span class="txt anim-text-flow">Tic-Tac-Toe</span>
+    </div>
+      
+    <div class="high-scores">
+      <h3>Top Ten List</h3>
+      <p>KEV ..... 10</p>
+      <p>ACE ..... 09</p>
+      <p>JGJ ..... 09</p>
+      <p>ACE ..... 08</p>
+      <p>GEE ..... 06</p>
+      <p>MAN ..... 03</p>
+      <p>SUP ..... 03</p>
+      <p>PAL ..... 02</p>
+      <p>ASS ..... 01</p>
+      <p>WHO ..... 01</p>
+    </div>
+    
+    <div class="startGame">
+      <p>Press to start!</p>
+      <button class="push--skeuo" id="startGame">Play</button>
+    </div>
+
+  </div><!-- end splash div -->
+
+  <div class="board">
+    <div class="row"> 
+      <div class="column">
+        <div class="square" id="0"></div>
+        <div class="square" id="3"></div>
+        <div class="square" id="6"></div>
+      </div>
+      <div class="column">
+        <div class="square" id="1"></div>
+        <div class="square" id="4"></div>
+        <div class="square" id="7"></div>
+      </div>
+      <div class="column">
+        <div class="square" id="2"></div>
+        <div class="square" id="5"></div>
+        <div class="square" id="8"></div>
+      </div>
+    </div>
+  </div><!-- end board div -->
+
+  <div class="endGame">
+      <div class="text"></div><br />
+      <div class="buttons">
+        <div class="button">
+          <button class="push--skeuo" id="playAgain"></button><br>
+          <div>Play Again?</div>
+        </div>
+        <div class="button">
+          <button class="push--skeuo" id="quitGame"></button><br>
+          <div>Quit</div>
+        </div>
+      </div>
+  </div>
+
+  <div class="muteUnmute">
+        <img src="images/mute.png" class="display" id="mute"/>
+        <img src="images/unmute.png" class="hide" id="unmute"/>
+  </div>
+
+
+
+  <script src="js/howler.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  
+</body>
+
+</html>
+

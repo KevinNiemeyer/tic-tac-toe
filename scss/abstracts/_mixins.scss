@@ -1,0 +1,25 @@
+/* Mixins */
+
+@mixin btn-theme($btn-color) {
+  border-color: darken($btn-color, 20%);
+  background-color: $btn-color;
+  color: darken($btn-color, 50%);
+  &:hover {
+    background-color: darken($btn-color, 6%);
+    box-shadow: 0 .125em $off-wht, inset 0 .063em $off-wht, inset 0 -.188em lighten($btn-color, 2%);
+  }
+  &:active {
+    box-shadow: 0 .063em $off-wht, inset 0 0 1.094em darken($btn-color, 40%), inset 0 .063em darken($btn-color, 20%),inset 0 -0.188em darken($btn-color, 20%); 
+  }
+}
+
+@mixin trans($val...) {
+  -webkit-transition: $val;
+  -moz-transition: $val; 
+  -o-transition: $val; 
+  transition: $val; 
+}
+
+@mixin header-theme($header-color) {
+  background-color: $header-color;
+}

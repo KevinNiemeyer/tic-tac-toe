@@ -1,0 +1,42 @@
+/* Themes */
+
+.purple__btn{
+  @include btn-theme($purple);
+}
+.light-purple__btn{
+  @include btn-theme($light-purple);
+}
+.dark-blue__btn{
+  @include btn-theme($dark-blue);
+}
+.med-blue__btn{
+  @include btn-theme($med-blue);
+}
+
+.light-blue__btn{
+  @include btn-theme($light-blue);
+}
+
+.purple__btn{
+  @include btn-theme($purple);
+}
+
+.btn__green {
+  @include btn-theme($green);
+}
+
+.light-purple__header{
+  @include header-theme($light-purple);
+}
+
+.dark-blue__header{
+  @include header-theme($dark-blue);
+}
+
+.med-blue__header{
+  @include header-theme($med-blue);
+}
+
+.med-blue__header{
+  @include header-theme($med-blue);
+}

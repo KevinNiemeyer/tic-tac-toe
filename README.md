@@ -1,2 +1,1 @@
-# tic-tac-toe-README.md
-Tic-Tac-Toe game
+# Tic-Tac-Toe game

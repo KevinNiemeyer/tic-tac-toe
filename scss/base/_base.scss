@@ -166,6 +166,32 @@ body {
     }
 }
 
+.footer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+}
+.soundBy {
+  padding-left: 10px;
+  color: red;
+  font-size: .25em;
+  float: left;
+  
+}
+.graphicsBy {
+    padding-right: 10px;
+    color: red;
+    float: right;
+    font-size: .25em;
+    
+  }
+
+
 .show {
   visibility: visible;
 }
